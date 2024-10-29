@@ -1,6 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 .coba{
     border-radius: 0px 200px 200px 0px;
 -webkit-border-radius: 0px 200px 200px 0px;
 -moz-border-radius: 0px 200px 200px 0px;
-margin-top: 7vmax;
+margin-top: 5vmax;
+}
+.coba1{
+    border-radius: 0px 200px 200px 0px;
+-webkit-border-radius: 0px 200px 200px 0px;
+-moz-border-radius: 0px 200px 200px 0px;
+background-image: url('/IMG/WhatsApp\ Image\ 2024-10-28\ at\ 19.45.38.jpeg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+.kegiatan{
+    margin-top: -30vmax;
+}
+.apa{
+    margin-top: 20vmax;
+}
+.viewAll{
+    margin-top: 3vmax;
 }

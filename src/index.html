@@ -12,7 +12,7 @@
 </head>
 <body>
    <!-- !! Mobile -->
-   <div class="navbar bg-base-100">
+   <div class="navbar bg-base-100 z-0">
     <div class="navbar-start">
       <div class="dropdown">
         <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
@@ -32,9 +32,21 @@
         <ul
           tabindex="0"
           class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-          <li><a>Homepage</a></li>
-          <li><a>Portfolio</a></li>
-          <li><a>About</a></li>
+          <li><a>Home</a></li>
+          <li>
+            <details>
+              <summary>Tentang Kami</summary>
+              <ul class="bg-base-100 rounded-t-none p-2">
+                <li><a>Visi & Misi</a></li>
+                <li><a>Sejarah</a></li>
+                <li><a>Alumni</a></li>
+              </ul>
+            </details>
+          </li>
+          <li><a>Berita</a></li>
+          <li><a>Karir</a></li>
+          <li><a>E-Library</a></li>
+          <li><a>Kontak</a></li>
         </ul>
       </div>
     </div>
@@ -61,185 +73,179 @@
 
 
   <!-- !! picture -->
-<div class="w-[85%]  h-[40vmax] inline-block coba  bg-yellow-400 "></div>
+  <div class="w-[85%]  h-[43vmax] inline-block coba  bg-yellow-400 ">
+    <div class="w-[95%]  h-[43vmax] inline-block coba1  bg-red-400 ">
+    </div>
+  </div>
+  
 
   <!-- !! kegiatan -->
-      <div class="h-[1276px] p-2.5 flex-col justify-start items-center flex">
-        <div class="h-[1256px] flex-col justify-center items-start flex">
-          <div class="self-stretch justify-center items-start inline-flex">
-            <div class="grow shrink basis-0 self-stretch pt-[30px] flex-col justify-end items-start inline-flex">
-              <div class="self-stretch h-[410px] pt-[280px] pb-5 flex-col justify-start items-start flex">
-                <div class="self-stretch h-[110px] bg-gradient-to-l from-[#0081c1] to-[#1a33a9] rounded-tl-[50px] rounded-br-[50px] shadow flex-col justify-start items-center flex">
-                  <div class="w-[370px] justify-start items-start inline-flex">
-                    <div class="w-[111px] self-stretch justify-center items-start flex">
-                      <div class="grow shrink basis-0 self-stretch px-3 py-[17.50px] justify-center items-center flex">
-                        <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
-                          <div class="self-stretch h-[75px] px-1.5 flex-col justify-start items-center flex">
-                            <div class="self-stretch justify-center items-center inline-flex">
-                              <img class="h-[75px] relative rounded-[50px] shadow border-4 border-white" src="https://via.placeholder.com/75x75" />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="w-[259px] self-stretch justify-center items-start flex">
-                      <div class="grow shrink basis-0 self-stretch pt-[42.20px] pb-[42.80px] justify-center items-center flex">
-                        <div class="grow shrink basis-0 pl-[9px] flex-col justify-start items-start inline-flex">
-                          <div class="self-stretch h-[25.40px] flex-col justify-start items-start flex">
-                            <div class="py-[1.70px] justify-start items-start inline-flex">
-                              <div class="text-white text-lg font-semibold font-['Poppins'] uppercase leading-snug tracking-tight">labschool jakarta</div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+   <div class="w-[97%] m-auto h-max">
+     <div class="h-[1276px]  kegiatan p-2.5 flex-col justify-start items-center flex">
+       <div class="h-[1256px] flex-col justify-center items-start flex">
+         <div class="self-stretch justify-center items-start inline-flex">
+           <div class="grow shrink basis-0 self-stretch pt-[30px] flex-col justify-end items-start inline-flex">
+             <div class="self-stretch h-[410px] pt-[280px] pb-5 flex-col justify-start items-start flex">
+               <div class="self-stretch h-[110px] bg-gradient-to-l from-[#0081c1] to-[#1a33a9] rounded-tl-[50px] rounded-br-[50px] shadow flex-col justify-start items-center flex">
+                 <div class="w-[370px] justify-start items-start inline-flex">
+                   <div class="w-[111px] self-stretch justify-center items-start flex">
+                     <div class="grow shrink basis-0 self-stretch px-3 py-[17.50px] justify-center items-center flex">
+                       <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
+                         <div class="self-stretch h-[75px] px-1.5 flex-col justify-start items-center flex">
+                           <div class="self-stretch justify-center items-center inline-flex">
+                             <img class="h-[75px] relative rounded-[50px] shadow border-4 border-white" src="/IMG/Batangas State University 🌿🇵🇭.jfif" />
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="w-[259px] self-stretch justify-center items-start flex">
+                     <div class="grow shrink basis-0 self-stretch pt-[42.20px] pb-[42.80px] justify-center items-center flex">
+                       <div class="grow shrink basis-0 pl-[9px] flex-col justify-start items-start inline-flex">
+                         <div class="self-stretch h-[25.40px] flex-col justify-start items-start flex">
+                           <div class="py-[1.70px] justify-start items-start inline-flex">
+                             <div class="text-white text-lg font-semibold font-['Poppins'] uppercase leading-snug tracking-tight">S-Labitech</div>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
 
-              
-              <div class="self-stretch h-[131px] pb-5 flex-col justify-start items-start flex">
-                <div class="self-stretch h-[111px] bg-gradient-to-l from-[#0081c1] to-[#1a33a9] rounded-tl-[50px] rounded-br-[50px] shadow flex-col justify-start items-center flex">
-                  <div class="w-[370px] justify-start items-start inline-flex">
-                    <div class="w-[111px] self-stretch justify-center items-start flex">
-                      <div class="grow shrink basis-0 self-stretch p-3 justify-center items-center flex">
-                        <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
-                          <div class="self-stretch h-[87px] flex-col justify-center items-center flex">
-                            <img class="w-[87px] h-[87px] relative rounded-[50px] shadow border-4 border-white" src="https://via.placeholder.com/87x87" />
+             
+             <div class="self-stretch h-[131px] pb-5 flex-col justify-start items-start flex">
+               <div class="self-stretch h-[111px] bg-gradient-to-l from-[#0081c1] to-[#1a33a9] rounded-tl-[50px] rounded-br-[50px] shadow flex-col justify-start items-center flex">
+                 <div class="w-[370px] justify-start items-start inline-flex">
+                   <div class="w-[111px] self-stretch justify-center items-start flex">
+                     <div class="grow shrink basis-0 self-stretch p-3 justify-center items-center flex">
+                       <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
+                         <div class="self-stretch h-[87px] flex-col justify-center items-center flex">
+                           <img class="w-[87px] h-[87px] relative rounded-[50px] shadow border-4 border-white" src="/IMG/download (1).jfif" />
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="w-[259px] self-stretch pl-[5px] justify-center items-start flex">
+                     <div class="grow shrink basis-0 self-stretch px-2.5 pt-[44.70px] pb-[44.71px] justify-start items-center flex">
+                       <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
+                         <div class="self-stretch h-[22px] flex-col justify-start items-start flex">
+                           <div class="self-stretch text-white text-lg font-semibold font-['Poppins'] uppercase leading-snug tracking-tight">VMG-Labitech 
                           </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="w-[259px] self-stretch pl-[5px] justify-center items-start flex">
-                      <div class="grow shrink basis-0 self-stretch px-2.5 pt-[44.70px] pb-[44.71px] justify-start items-center flex">
-                        <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
-                          <div class="self-stretch h-[22px] flex-col justify-start items-start flex">
-                            <div class="self-stretch text-white text-lg font-semibold font-['Poppins'] uppercase leading-snug tracking-tight">labschool kebayoran</div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="self-stretch h-[131px] pb-5 flex-col justify-start items-start flex">
-                <div class="self-stretch h-[111px] bg-gradient-to-l from-[#0081c1] to-[#1a33a9] rounded-tl-[50px] rounded-br-[50px] shadow flex-col justify-start items-center flex">
-                  <div class="w-[370px] justify-start items-start inline-flex">
-                    <div class="w-[111px] self-stretch justify-center items-start flex">
-                      <div class="grow shrink basis-0 self-stretch p-3 justify-center items-center flex">
-                        <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
-                          <div class="self-stretch h-[87px] flex-col justify-start items-start flex">
-                            <div class="self-stretch justify-center items-center inline-flex">
-                              <img class="h-[87px] relative rounded-[50px] shadow border-4 border-white" src="https://via.placeholder.com/87x87" />
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+             <div class="self-stretch h-[131px] pb-5 flex-col justify-start items-start flex">
+               <div class="self-stretch h-[111px] bg-gradient-to-l from-[#0081c1] to-[#1a33a9] rounded-tl-[50px] rounded-br-[50px] shadow flex-col justify-start items-center flex">
+                 <div class="w-[370px] justify-start items-start inline-flex">
+                   <div class="w-[111px] self-stretch justify-center items-start flex">
+                     <div class="grow shrink basis-0 self-stretch p-3 justify-center items-center flex">
+                       <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
+                         <div class="self-stretch h-[87px] flex-col justify-start items-start flex">
+                           <div class="self-stretch justify-center items-center inline-flex">
+                             <img class="h-[87px] relative rounded-[50px] shadow border-4 border-white" src="/IMG/download.jfif" />
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="w-[259px] self-stretch pl-[5px] justify-center items-start flex">
+                     <div class="grow shrink basis-0 self-stretch px-2.5 pt-[42.70px] pb-[43.30px] justify-start items-center flex">
+                       <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
+                         <div class="self-stretch h-[25.40px] flex-col justify-start items-start flex">
+                           <div class="py-[1.70px] justify-start items-start inline-flex">
+                             <div class="text-white text-lg font-semibold font-['Poppins'] uppercase leading-snug tracking-tight"> K-Labitech
                             </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="w-[259px] self-stretch pl-[5px] justify-center items-start flex">
-                      <div class="grow shrink basis-0 self-stretch px-2.5 pt-[42.70px] pb-[43.30px] justify-start items-center flex">
-                        <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
-                          <div class="self-stretch h-[25.40px] flex-col justify-start items-start flex">
-                            <div class="py-[1.70px] justify-start items-start inline-flex">
-                              <div class="text-white text-lg font-semibold font-['Poppins'] uppercase leading-snug tracking-tight">labschool Cibubur</div>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+             <div class="self-stretch h-[131px] pb-5 flex-col justify-start items-start flex">
+               <div class="self-stretch h-[111px] bg-gradient-to-l from-[#0081c1] to-[#1a33a9] rounded-tl-[50px] rounded-br-[50px] shadow flex-col justify-start items-center flex">
+                 <div class="w-[370px] justify-start items-start inline-flex">
+                   <div class="w-[111px] self-stretch justify-center items-start flex">
+                     <div class="grow shrink basis-0 self-stretch p-3 justify-center items-center flex">
+                       <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
+                         <div class="self-stretch h-[87px] flex-col justify-center items-center flex">
+                           <img class="w-[87px] h-[87px] relative rounded-[50px] shadow border-4 border-white" src="/IMG/Rehab.jfif" />
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="w-[259px] self-stretch pl-[5px] justify-center items-start flex">
+                     <div class="grow shrink basis-0 self-stretch px-2.5 pt-[44.70px] pb-[44.71px] justify-start items-center flex">
+                       <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
+                         <div class="self-stretch h-[22px] flex-col justify-start items-start flex">
+                           <div class="self-stretch text-white text-lg font-semibold font-['Poppins'] uppercase leading-snug tracking-tight"> Labitech Insan Mulia
                             </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="self-stretch h-[131px] pb-5 flex-col justify-start items-start flex">
-                <div class="self-stretch h-[111px] bg-gradient-to-l from-[#0081c1] to-[#1a33a9] rounded-tl-[50px] rounded-br-[50px] shadow flex-col justify-start items-center flex">
-                  <div class="w-[370px] justify-start items-start inline-flex">
-                    <div class="w-[111px] self-stretch justify-center items-start flex">
-                      <div class="grow shrink basis-0 self-stretch p-3 justify-center items-center flex">
-                        <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
-                          <div class="self-stretch h-[87px] flex-col justify-center items-center flex">
-                            <img class="w-[87px] h-[87px] relative rounded-[50px] shadow border-4 border-white" src="https://via.placeholder.com/87x87" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="w-[259px] self-stretch pl-[5px] justify-center items-start flex">
-                      <div class="grow shrink basis-0 self-stretch px-2.5 pt-[44.70px] pb-[44.71px] justify-start items-center flex">
-                        <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
-                          <div class="self-stretch h-[22px] flex-col justify-start items-start flex">
-                            <div class="self-stretch text-white text-lg font-semibold font-['Poppins'] uppercase leading-snug tracking-tight">labschool Cirendeu</div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="self-stretch h-[131px] pb-5 flex-col justify-start items-start flex">
-                <div class="self-stretch h-[111px] bg-gradient-to-l from-[#0081c1] to-[#1a33a9] rounded-tl-[50px] rounded-br-[50px] shadow flex-col justify-start items-center flex">
-                  <div class="w-[370px] justify-start items-start inline-flex">
-                    <div class="w-[111px] self-stretch justify-center items-start flex">
-                      <div class="grow shrink basis-0 self-stretch p-3 justify-center items-center flex">
-                        <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
-                          <div class="self-stretch h-[87px] flex-col justify-start items-center flex">
-                            <div class="self-stretch justify-center items-center inline-flex">
-                              <img class="h-[87px] relative rounded-[50px] shadow border-4 border-white" src="https://via.placeholder.com/87x87" />
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+             <div class="self-stretch h-[131px] pb-5 flex-col justify-start items-start flex">
+               <div class="self-stretch h-[111px] bg-gradient-to-l from-[#0081c1] to-[#1a33a9] rounded-tl-[50px] rounded-br-[50px] shadow flex-col justify-start items-center flex">
+                 <div class="w-[370px] justify-start items-start inline-flex">
+                   <div class="w-[111px] self-stretch justify-center items-start flex">
+                     <div class="grow shrink basis-0 self-stretch p-3 justify-center items-center flex">
+                       <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
+                         <div class="self-stretch h-[87px] flex-col justify-start items-center flex">
+                           <div class="self-stretch justify-center items-center inline-flex">
+                             <img class="h-[87px] relative rounded-[50px] shadow border-4 border-white" src="/IMG/scho ctto.jfif" />
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="w-[259px] self-stretch pl-[5px] justify-center items-start flex">
+                     <div class="grow shrink basis-0 self-stretch px-2.5 pt-[42.70px] pb-[43.30px] justify-start items-center flex">
+                       <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
+                         <div class="self-stretch h-[25.40px] flex-col justify-start items-start flex">
+                           <div class="py-[1.70px] justify-start items-start inline-flex">
+                             <div class="text-white text-lg font-semibold font-['Poppins'] uppercase leading-snug tracking-tight">Aplikasi Juara
                             </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="w-[259px] self-stretch pl-[5px] justify-center items-start flex">
-                      <div class="grow shrink basis-0 self-stretch px-2.5 pt-[42.70px] pb-[43.30px] justify-start items-center flex">
-                        <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
-                          <div class="self-stretch h-[25.40px] flex-col justify-start items-start flex">
-                            <div class="py-[1.70px] justify-start items-start inline-flex">
-                              <div class="text-white text-lg font-semibold font-['Poppins'] uppercase leading-snug tracking-tight">labschool bintaro</div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="self-stretch h-[131px] pb-5 flex-col justify-start items-start flex">
-                <div class="self-stretch h-[111px] bg-gradient-to-l from-[#0081c1] to-[#1a33a9] rounded-tl-[50px] rounded-br-[50px] shadow flex-col justify-start items-center flex">
-                  <div class="w-[370px] justify-start items-start inline-flex">
-                    <div class="w-[111px] self-stretch justify-center items-start flex">
-                      <div class="grow shrink basis-0 self-stretch p-3 justify-center items-center flex">
-                        <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
-                          <div class="self-stretch h-[87px] flex-col justify-start items-center flex">
-                            <div class="self-stretch justify-center items-center inline-flex">
-                              <img class="h-[87px] relative rounded-[50px] shadow border-4 border-white" src="https://via.placeholder.com/87x87" />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="w-[259px] self-stretch pl-[5px] justify-center items-start flex">
-                      <div class="grow shrink basis-0 self-stretch px-2.5 pt-[42.70px] pb-[43.30px] justify-start items-center flex">
-                        <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
-                          <div class="self-stretch h-[25.40px] flex-col justify-start items-start flex">
-                            <div class="py-[1.70px] justify-start items-start inline-flex">
-                              <div class="text-white text-lg font-semibold font-['Poppins'] uppercase leading-snug tracking-tight">labschool ciracas</div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="self-stretch h-[146px] pb-5 flex-col justify-start items-start flex">
-                <div class="self-stretch h-[126px] bg-gradient-to-l from-[#0081c1] to-[#1a33a9] rounded-[10px] shadow flex-col justify-start items-center flex">
-                  <div class="w-[370px] pl-[5px] justify-center items-start inline-flex">
-                    <div class="grow shrink basis-0 self-stretch px-2.5 py-[27px] justify-start items-center flex">
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+            
+             <div class="self-stretch h-[131px] pb-5 flex-col justify-start items-start flex">
+              <div class="self-stretch h-[111px] bg-gradient-to-l from-[#0081c1] to-[#1a33a9] rounded-tl-[50px] rounded-br-[50px] shadow flex-col justify-start items-center flex">
+                <div class="w-[370px] justify-start items-start inline-flex">
+                  <div class="w-[111px] self-stretch justify-center items-start flex">
+                    <div class="grow shrink basis-0 self-stretch p-3 justify-center items-center flex">
                       <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
-                        <div class="self-stretch px-6 py-3 bg-gradient-to-b from-white to-[#c1a8ae] rounded-[10px] justify-center items-start inline-flex">
-                          <div class="grow shrink basis-0 h-12 justify-center items-start flex">
-                            <div class="grow shrink basis-0 self-stretch px-[0.47px] flex-col justify-start items-center inline-flex">
-                              <div class="self-stretch text-center text-[#4b5998] text-base font-bold font-['Roboto'] leading-none">PENERIMAAN SISWA BARU LABSCHOOL<br/>2024</div>
-                            </div>
+                        <div class="self-stretch h-[87px] flex-col justify-start items-center flex">
+                          <div class="self-stretch justify-center items-center inline-flex">
+                            <img class="h-[87px] relative rounded-[50px] shadow border-4 border-white" src="/IMG/scho ctto.jfif" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="w-[259px] self-stretch pl-[5px] justify-center items-start flex">
+                    <div class="grow shrink basis-0 self-stretch px-2.5 pt-[42.70px] pb-[43.30px] justify-start items-center flex">
+                      <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
+                        <div class="self-stretch h-[25.40px] flex-col justify-start items-start flex">
+                          <div class="py-[1.70px] justify-start items-start inline-flex">
+                            <div class="text-white text-lg font-semibold font-['Poppins'] uppercase leading-snug tracking-tight">Sertifikasi Juara
+
+                           </div>
                           </div>
                         </div>
                       </div>
@@ -248,7 +254,56 @@
                 </div>
               </div>
             </div>
-          </div>
+            <div class="self-stretch h-[131px] pb-5 flex-col justify-start items-start flex">
+              <div class="self-stretch h-[111px] bg-gradient-to-l from-[#0081c1] to-[#1a33a9] rounded-tl-[50px] rounded-br-[50px] shadow flex-col justify-start items-center flex">
+                <div class="w-[370px] justify-start items-start inline-flex">
+                  <div class="w-[111px] self-stretch justify-center items-start flex">
+                    <div class="grow shrink basis-0 self-stretch p-3 justify-center items-center flex">
+                      <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
+                        <div class="self-stretch h-[87px] flex-col justify-start items-center flex">
+                          <div class="self-stretch justify-center items-center inline-flex">
+                            <img class="h-[87px] relative rounded-[50px] shadow border-4 border-white" src="/IMG/scho ctto.jfif" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="w-[259px] self-stretch pl-[5px] justify-center items-start flex">
+                    <div class="grow shrink basis-0 self-stretch px-2.5 pt-[42.70px] pb-[43.30px] justify-start items-center flex">
+                      <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
+                        <div class="self-stretch h-[25.40px] flex-col justify-start items-start flex">
+                          <div class="py-[1.70px] justify-start items-start inline-flex">
+                            <div class="text-white text-lg font-semibold font-['Poppins'] uppercase leading-snug tracking-tight">FAQ Labitech
+                           </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+           
+             <div class="self-stretch h-[146px] pb-5 flex-col justify-start items-start flex">
+               <div class="self-stretch h-[126px] bg-gradient-to-l from-[#0081c1] to-[#1a33a9] rounded-[10px] shadow flex-col justify-start items-center flex">
+                 <div class="w-[370px] pl-[5px] justify-center items-start inline-flex">
+                   <div class="grow shrink basis-0 self-stretch px-2.5 py-[27px] justify-start items-center flex">
+                     <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
+                       <div class="self-stretch px-6 py-3 bg-gradient-to-b from-white to-[#c1a8ae] rounded-[10px] justify-center items-start inline-flex">
+                         <div class="grow shrink basis-0 h-12 justify-center items-start flex">
+                           <div class="grow shrink basis-0 self-stretch px-[0.47px] flex-col justify-start items-center inline-flex">
+                             <div class="self-stretch text-center text-[#4b5998] text-base font-bold font-['Roboto'] leading-none">PENERIMAAN SISWA BARU LABITECH<br/>2024</div>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+   </div>
           <div class="self-stretch pb-[30px] justify-center items-start inline-flex">
             <div class="grow shrink basis-0 self-stretch flex-col justify-end items-start inline-flex">
               <div class="self-stretch h-1 flex-col justify-start items-center flex">
@@ -306,421 +361,213 @@
           <div class="grow shrink basis-0 self-stretch justify-center items-center inline-flex"></div>
         </div>
       </div>
-      <div class="self-stretch h-[3354.19px] pb-2.5 bg-[#f7f9fb] flex-col justify-start items-center flex">
-        <div class="w-[390px] justify-center items-start inline-flex">
-          <div class="grow shrink basis-0 self-stretch px-2.5 pt-2.5 pb-2 flex-col justify-center items-start inline-flex">
-            <div class="self-stretch h-[142.19px] pb-5 flex-col justify-center items-start flex">
-              <div class="self-stretch h-[122.19px] flex-col justify-start items-start flex">
-                <div class="self-stretch h-[122.19px] flex-col justify-center items-center flex">
-                  <div class="w-[370px] h-[122.19px] relative">
-                    <div class="left-[87.36px] top-0 absolute justify-center items-start inline-flex">
-                      <div class="text-center text-[#0e83cd] text-[58px] font-normal font-['Racing Sans One'] leading-[55px]">BERITA</div>
-                    </div>
-                    <div class="w-[278.72px] h-[67.20px] left-[45.80px] top-[54.40px] absolute text-center text-[#4c68c5] text-5xl font-normal font-['Raleway'] capitalize leading-[67.20px]">LABITECH</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="h-5 relative"></div>
-            <div class="self-stretch h-[55px] pb-5 flex-col justify-center items-start flex">
-              <div class="self-stretch h-[35px] flex-col justify-start items-start flex">
-                <div class="self-stretch h-[35px] bg-white/0 shadow flex-col justify-start items-start flex">
-                  <div class="h-[35px] bg-[#ebe718]/90 rounded-sm justify-center items-start gap-[26px] inline-flex">
-                    <div class="grow shrink basis-0 self-stretch justify-center items-center inline-flex">
-                      <div class="grow shrink basis-0 self-stretch justify-center items-center inline-flex">
-                        <div class="grow shrink basis-0 self-stretch flex-col justify-start items-start inline-flex">
-                          <div class="self-stretch h-[35px] px-3 flex-col justify-start items-start flex">
-                            <div class="self-stretch text-[#242423]/75 text-sm font-normal font-['Poppins'] leading-[35px]">Rekruitmen Tenaga Pendidik Labschool …</div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="w-[26px] self-stretch bg-[#98988f]/75 flex-col justify-center items-start inline-flex">
-                      <div class="self-stretch grow shrink basis-0 px-1.5 pt-[9px] pb-3 flex-col justify-start items-center flex">
-                        <div class="w-3.5 h-3.5 py-[2.80px] justify-center items-center inline-flex"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+      
+           
+
+
+
+
+            
 
 
 
 
 
 
-            <!-- Eror -->
-            <div class="self-stretch h-[3109px] flex-col justify-start items-center flex">
-              <div class="w-[370px] justify-center items-start inline-flex">
-                <div class="grow shrink basis-0 self-stretch flex-col justify-center items-end inline-flex">
-                  <div class="w-[375px] h-[3095px] pb-5 flex-col justify-center items-start flex">
-                    <div class="self-stretch h-[3075px] flex-col justify-start items-start flex">
-                      <div class="self-stretch h-[3075px] flex-col justify-center items-start flex">
-                        <div class="self-stretch h-[380px] pl-[5px] flex-col justify-start items-start flex">
-                          <div class="self-stretch h-[380px] flex-col justify-start items-start flex">
-                            <div class="h-[380px] flex-col justify-center items-center flex">
-                              <img class="w-[381.10px] h-[391.40px]" src="https://via.placeholder.com/381x391" />
-                            </div>
-                            <div class="w-[370px] h-[380px] opacity-75 bg-gradient-to-b from-white to-black"></div>
-                            <div class="h-[123px] p-[30px] bg-[#1a5989]/70 flex-col justify-start items-start flex">
-                              <div class="self-stretch h-[63px] flex-col justify-start items-end gap-2.5 flex">
-                                <div class="w-[330px] justify-start items-center inline-flex">
-                                  <div class="pl-5 flex-col justify-start items-start inline-flex">
-                                    <div class="text-[#e0db7b] text-[13px] font-normal font-['Open Sans'] leading-normal">September 10, 2024</div>
-                                  </div>
-                                </div>
-                                <div class="self-stretch h-[29px] flex-col justify-start items-start flex">
-                                  <div class="justify-start items-start inline-flex">
-                                    <div class="text-[#f6f128] text-xs font-bold font-['Inter'] leading-[14.40px]">PELATIHAN AUDITOR MUTU INTERNAL LABSCHOOL<br/>2024</div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="self-stretch h-[3354.19px] pb-2.5 bg-[#f7f9fb] flex-col justify-start items-center flex">
+              <div class="w-[390px] justify-center items-start inline-flex">
+                <div class="grow shrink basis-0 self-stretch px-2.5 pt-2.5 pb-2 flex-col justify-center items-start inline-flex">
+                  <div class="self-stretch h-[142.19px] pb-5 flex-col justify-center items-start flex">
+                    <div class="self-stretch h-[122.19px] flex-col justify-start items-start flex">
+                      <div class="self-stretch h-[122.19px] flex-col justify-center items-center flex">
+                        <div class="w-[370px] h-[122.19px] relative">
+                          <div class="left-[87.36px] top-0 absolute justify-center items-start inline-flex">
+                            <div class="text-center text-[#0e83cd] text-[58px] font-bold font-['Racing Sans One'] leading-[55px]">BERITA</div>
                           </div>
+                          <div class="w-[278.72px] h-[67.20px] left-[45.80px] top-[54.40px] absolute text-center text-[#4c68c5] text-5xl font-normal font-['Raleway'] capitalize leading-[67.20px]">LABITECH</div>
                         </div>
-                        <div class="self-stretch h-[385px] pt-[5px] flex-col justify-center items-start flex">
-                          <div class="self-stretch h-[380px] pl-[5px] flex-col justify-start items-start flex">
-                            <div class="self-stretch h-[380px] flex-col justify-start items-start flex">
-                              <div class="h-[380px] flex-col justify-center items-center flex">
-                                <img class="w-[381.10px] h-[391.40px]" src="https://via.placeholder.com/381x391" />
-                              </div>
-                              <div class="w-[370px] h-[380px] opacity-75 bg-gradient-to-b from-white to-black"></div>
-                              <div class="h-[109px] p-[30px] bg-[#1a5989]/70 flex-col justify-start items-start flex">
-                                <div class="self-stretch h-[49px] flex-col justify-start items-end gap-2.5 flex">
-                                  <div class="w-[330px] justify-start items-center inline-flex">
-                                    <div class="pl-5 flex-col justify-start items-start inline-flex">
-                                      <div class="text-[#e0db7b] text-[13px] font-normal font-['Open Sans'] leading-normal">August 30, 2024</div>
-                                    </div>
-                                  </div>
-                                  <div class="self-stretch h-[15px] flex-col justify-start items-start flex">
-                                    <div class="justify-start items-start inline-flex">
-                                      <div class="text-[#f6f128] text-xs font-bold font-['Inter'] leading-[14.40px]">Rekruitmen Tenaga Pendidik Labschool UNJ</div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="self-stretch h-[385px] pt-[5px] flex-col justify-center items-start flex">
-                          <div class="self-stretch h-[380px] pl-[5px] flex-col justify-start items-start flex">
-                            <div class="self-stretch h-[380px] flex-col justify-start items-start flex">
-                              <div class="h-[380px] flex-col justify-center items-center flex">
-                                <img class="w-[381.10px] h-[391.40px]" src="https://via.placeholder.com/381x391" />
-                              </div>
-                              <div class="w-[370px] h-[380px] opacity-75 bg-gradient-to-b from-white to-black"></div>
-                              <div class="h-[123px] p-[30px] bg-[#1a5989]/70 flex-col justify-start items-start flex">
-                                <div class="self-stretch h-[63px] flex-col justify-start items-end gap-2.5 flex">
-                                  <div class="w-[330px] justify-start items-center inline-flex">
-                                    <div class="pl-5 flex-col justify-start items-start inline-flex">
-                                      <div class="text-[#e0db7b] text-[13px] font-normal font-['Open Sans'] leading-normal">August 19, 2024</div>
-                                    </div>
-                                  </div>
-                                  <div class="self-stretch h-[29px] flex-col justify-start items-start flex">
-                                    <div class="justify-start items-start inline-flex">
-                                      <div class="text-[#f6f128] text-xs font-bold font-['Inter'] leading-[14.40px]">Lari Lintas Juang: Tradisi Labschool Rayakan<br/>Kemerdekaan Indonesia</div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="self-stretch h-[385px] pt-[5px] flex-col justify-center items-start flex">
-                          <div class="self-stretch h-[380px] pl-[5px] flex-col justify-start items-start flex">
-                            <div class="self-stretch h-[380px] flex-col justify-start items-start flex">
-                              <div class="h-[380px] flex-col justify-center items-center flex">
-                                <img class="w-[381.10px] h-[391.40px]" src="https://via.placeholder.com/381x391" />
-                              </div>
-                              <div class="w-[370px] h-[380px] opacity-75 bg-gradient-to-b from-white to-black"></div>
-                              <div class="h-[123px] p-[30px] bg-[#1a5989]/70 flex-col justify-start items-start flex">
-                                <div class="self-stretch h-[63px] flex-col justify-start items-end gap-2.5 flex">
-                                  <div class="w-[330px] justify-start items-center inline-flex">
-                                    <div class="pl-5 flex-col justify-start items-start inline-flex">
-                                      <div class="text-[#e0db7b] text-[13px] font-normal font-['Open Sans'] leading-normal">August 15, 2024</div>
-                                    </div>
-                                  </div>
-                                  <div class="self-stretch h-[29px] flex-col justify-start items-start flex">
-                                    <div class="justify-start items-start inline-flex">
-                                      <div class="text-[#f6f128] text-xs font-bold font-['Inter'] leading-[14.40px]">Pelantikan dan Serah Terima Jabatan Kepala Sekolah<br/>di Lingkungan Labschool UNJ</div>
-                                    </div>
-                                  </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="h-5 relative"></div>
+                  <div class="self-stretch h-[55px] pb-5 flex-col justify-center items-start flex">
+                    <div class="self-stretch h-[35px] flex-col justify-start items-start flex">
+                      <div class="self-stretch h-[35px] bg-white/0 shadow flex-col justify-start items-start flex">
+                        <div class="h-[35px] bg-[#ebe718]/90 rounded-sm justify-center items-start gap-[26px] inline-flex">
+                          <div class="grow shrink basis-0 self-stretch justify-center items-center inline-flex">
+                            <div class="grow shrink basis-0 self-stretch justify-center items-center inline-flex">
+                              <div class="grow shrink basis-0 self-stretch flex-col justify-start items-start inline-flex">
+                                <div class="self-stretch h-[35px] px-3 flex-col justify-start items-start flex">
+                                  <div class="self-stretch text-[#242423]/75 text-sm font-normal font-['Poppins'] leading-[35px]">Rekruitmen Tenaga Pendidik Labitech …</div>
                                 </div>
                               </div>
                             </div>
                           </div>
-                        </div>
-                        <div class="self-stretch h-[385px] pt-[5px] flex-col justify-center items-start flex">
-                          <div class="self-stretch h-[380px] pl-[5px] flex-col justify-start items-start flex">
-                            <div class="self-stretch h-[380px] flex-col justify-start items-start flex">
-                              <div class="h-[380px] flex-col justify-center items-center flex">
-                                <img class="w-[381.10px] h-[391.40px]" src="https://via.placeholder.com/381x391" />
-                              </div>
-                              <div class="w-[370px] h-[380px] opacity-75 bg-gradient-to-b from-white to-black"></div>
-                              <div class="h-[123px] p-[30px] bg-[#1a5989]/70 flex-col justify-start items-start flex">
-                                <div class="self-stretch h-[63px] flex-col justify-start items-end gap-2.5 flex">
-                                  <div class="w-[330px] justify-start items-center inline-flex">
-                                    <div class="pl-5 flex-col justify-start items-start inline-flex">
-                                      <div class="text-[#e0db7b] text-[13px] font-normal font-['Open Sans'] leading-normal">August 5, 2024</div>
-                                    </div>
-                                  </div>
-                                  <div class="self-stretch h-[29px] flex-col justify-start items-start flex">
-                                    <div class="justify-start items-start inline-flex">
-                                      <div class="text-[#f6f128] text-xs font-bold font-['Inter'] leading-[14.40px]">Tingkatkan Tradisi Meneliti dan Budaya Literasi<br/>Labschool Luncurkan Jurnal Pendidikan</div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="self-stretch h-[385px] pt-[5px] flex-col justify-center items-start flex">
-                          <div class="self-stretch h-[380px] pl-[5px] flex-col justify-start items-start flex">
-                            <div class="self-stretch h-[380px] flex-col justify-start items-start flex">
-                              <div class="h-[380px] flex-col justify-center items-center flex">
-                                <img class="w-[381.10px] h-[391.40px]" src="https://via.placeholder.com/381x391" />
-                              </div>
-                              <div class="w-[370px] h-[380px] opacity-75 bg-gradient-to-b from-white to-black"></div>
-                              <div class="h-[123px] p-[30px] bg-[#1a5989]/70 flex-col justify-start items-start flex">
-                                <div class="self-stretch h-[63px] flex-col justify-start items-end gap-2.5 flex">
-                                  <div class="w-[330px] justify-start items-center inline-flex">
-                                    <div class="pl-5 flex-col justify-start items-start inline-flex">
-                                      <div class="text-[#e0db7b] text-[13px] font-normal font-['Open Sans'] leading-normal">August 2, 2024</div>
-                                    </div>
-                                  </div>
-                                  <div class="self-stretch h-[29px] flex-col justify-start items-start flex">
-                                    <div class="justify-start items-start inline-flex">
-                                      <div class="text-[#f6f128] text-xs font-bold font-['Inter'] leading-[14.40px]">Pengenalan Budaya Labschool dalam MPLS<br/>Labschool Jakarta 2024</div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="self-stretch h-[385px] pt-[5px] flex-col justify-center items-start flex">
-                          <div class="self-stretch h-[380px] pl-[5px] flex-col justify-start items-start flex">
-                            <div class="self-stretch h-[380px] flex-col justify-start items-start flex">
-                              <div class="h-[380px] flex-col justify-center items-center flex">
-                                <img class="w-[381.10px] h-[391.40px]" src="https://via.placeholder.com/381x391" />
-                              </div>
-                              <div class="w-[370px] h-[380px] opacity-75 bg-gradient-to-b from-white to-black"></div>
-                              <div class="h-[123px] p-[30px] bg-[#1a5989]/70 flex-col justify-start items-start flex">
-                                <div class="self-stretch h-[63px] flex-col justify-start items-end gap-2.5 flex">
-                                  <div class="w-[330px] justify-start items-center inline-flex">
-                                    <div class="pl-5 flex-col justify-start items-start inline-flex">
-                                      <div class="text-[#e0db7b] text-[13px] font-normal font-['Open Sans'] leading-normal">August 2, 2024</div>
-                                    </div>
-                                  </div>
-                                  <div class="self-stretch h-[29px] flex-col justify-start items-start flex">
-                                    <div class="justify-start items-start inline-flex">
-                                      <div class="text-[#f6f128] text-xs font-bold font-['Inter'] leading-[14.40px]">Upacara Serentak Mengawali Tahun Pelajaran Baru<br/>2024/2025</div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="self-stretch h-[385px] pt-[5px] flex-col justify-center items-start flex">
-                          <div class="self-stretch h-[380px] pl-[5px] flex-col justify-start items-start flex">
-                            <div class="self-stretch h-[380px] flex-col justify-start items-start flex">
-                              <div class="h-[380px] flex-col justify-center items-center flex">
-                                <img class="w-[381.10px] h-[391.40px]" src="https://via.placeholder.com/381x391" />
-                              </div>
-                              <div class="w-[370px] h-[380px] opacity-75 bg-gradient-to-b from-white to-black"></div>
-                              <div class="h-[138px] p-[30px] bg-[#1a5989]/70 flex-col justify-start items-start flex">
-                                <div class="self-stretch h-[78px] flex-col justify-start items-end gap-2.5 flex">
-                                  <div class="w-[330px] justify-start items-center inline-flex">
-                                    <div class="pl-5 flex-col justify-start items-start inline-flex">
-                                      <div class="text-[#e0db7b] text-[13px] font-normal font-['Open Sans'] leading-normal">May 30, 2024</div>
-                                    </div>
-                                  </div>
-                                  <div class="self-stretch h-11 flex-col justify-start items-start flex">
-                                    <div class="justify-start items-start inline-flex">
-                                      <div class="text-[#f6f128] text-xs font-bold font-['Inter'] leading-[14.40px]">Memperluas Akses Pendidikan: UNJ dan Yayasan<br/>Triguna 1956 Resmikan Pendirian SMA Labschool<br/>Bintaro</div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
+                          <div class="w-[26px] self-stretch bg-[#98988f]/75 flex-col justify-center items-start inline-flex">
+                            <div class="self-stretch grow shrink basis-0 px-1.5 pt-[9px] pb-3 flex-col justify-start items-center flex">
+                              <div class="w-3.5 h-3.5 py-[2.80px] justify-center items-center inline-flex"></div>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="self-stretch h-[17px] flex-col justify-start items-start flex">
-                    <div class="self-stretch h-[17px] pl-[158.48px] pr-[158.50px] flex-col justify-start items-center flex">
-                      <div class="py-[2.50px] justify-center items-start inline-flex">
-                        <div class="text-center text-[#308ba5]/90 text-xs font-semibold font-['Poppins'] leading-3">VIEW ALL</div>
+
+                  <!-- !! Mapping beerita -->
+                  <div class="w-[100%] flex flex-col gap-5 h-max m-auto">
+                    <div class="card bg-base-100 shadow-xl">
+                      <figure>
+                        <img
+                          src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                          alt="Shoes" />
+                      </figure>
+                      <div class="card-body">
+                        <h2 class="card-title">Shoes!</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
                       </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="h-[540px] bg-[#e9e9e9] flex-col justify-center items-start gap-[0px] flex">
-        <div class="self-stretch h-[212.31px] pl-[23.39px] pt-[54.15px] pb-[74.16px] flex-col justify-center items-start flex">
-          <div class="h-[175px] flex-col justify-center items-start flex">
-            <div class="h-[175px] relative bg-[#e86b18]"></div>
-          </div>
-          <div class="h-[175px] flex-col justify-center items-start flex">
-            <div class="h-[175px] relative bg-[#ebe718]/90"></div>
-          </div>
-          <div class="self-stretch h-[84px] flex-col justify-center items-start flex">
-            <div class="self-stretch grow shrink basis-0 flex-col justify-start items-start flex">
-              <div class="self-stretch h-[84px] flex-col justify-start items-start flex">
-                <div class="self-stretch text-[#141313] text-[32px] font-bold font-['Poppins'] leading-[42px]">LABSCHOOL TV<br/>ON YOUTUBE</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="self-stretch h-[327.69px] flex-col justify-start items-start flex">
-          <div class="self-stretch h-[219.38px] flex-col justify-center items-start flex">
-            <div class="self-stretch grow shrink basis-0 flex-col justify-start items-start flex">
-              <div class="self-stretch h-[219.38px] flex-col justify-center items-start flex">
-                <div class="h-[219.38px] relative bg-black"></div>
-              </div>
-              <div class="w-[390px] h-[219px] bg-black flex-col justify-center items-start flex">
-                <div class="h-[219px] relative bg-black">
-                  <div class="w-[182.05px] h-[47px] left-[195.95px] top-[167px] absolute bg-black/30 rounded-3xl flex-col justify-start items-start inline-flex">
-                    <div class="self-stretch h-px px-3 pt-12 justify-start items-center gap-1.5 inline-flex">
-                      <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
-                        <div class="self-stretch text-white text-base font-medium font-['Roboto'] leading-none">Watch on</div>
-                      </div>
-                      <div class="w-[85px] h-5 flex-col justify-center items-start inline-flex">
-                        <div class="h-5 relative"></div>
+                    <div class="card bg-base-100 shadow-xl">
+                      <figure>
+                        <img
+                          src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                          alt="Shoes" />
+                      </figure>
+                      <div class="card-body">
+                        <h2 class="card-title">Shoes!</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
                       </div>
                     </div>
-                  </div>
-                  <img class="w-[390px] h-[99px] left-0 top-0 absolute" src="https://via.placeholder.com/390x99" />
-                  <div class="w-[366px] left-[12px] top-0 absolute justify-end items-start inline-flex">
-                    <div class="w-[50px] h-[50px] p-[5px] rounded-[25px] justify-start items-start flex">
-                      <img class="w-10 h-10 rounded-[20px]" src="https://via.placeholder.com/40x40" />
-                    </div>
-                    <div class="grow shrink basis-0 self-stretch justify-center items-start flex">
-                      <div class="grow shrink basis-0 self-stretch pl-[50px] pt-[21px] flex-col justify-start items-start inline-flex">
-                        <div class="self-stretch h-6 flex-col justify-start items-start flex">
-                          <div class="self-stretch text-[#eeeeee] text-lg font-normal font-['Roboto'] leading-normal">Inspirasi Kepemimpinan dari Ke…</div>
-                        </div>
+                    <div class="card bg-base-100 shadow-xl">
+                      <figure>
+                        <img
+                          src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                          alt="Shoes" />
+                      </figure>
+                      <div class="card-body">
+                        <h2 class="card-title">Shoes!</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
                       </div>
                     </div>
-                    <div class="self-stretch flex-col justify-start items-start inline-flex">
-                      <div class="px-1.5 pt-4 opacity-90 justify-center items-center inline-flex">
-                        <div class="w-9 h-9 flex-col justify-center items-start inline-flex">
-                          <div class="h-9 pt-[9px] pb-[11px] justify-center items-center inline-flex"></div>
-                        </div>
+                    <div class="card bg-base-100 shadow-xl">
+                      <figure>
+                        <img
+                          src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                          alt="Shoes" />
+                      </figure>
+                      <div class="card-body">
+                        <h2 class="card-title">Shoes!</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
                       </div>
                     </div>
-                  </div>
-                  <div class="w-[390px] h-[219px] left-0 top-0 absolute">
-                    <img class="w-[390px] h-[219px] left-0 top-0 absolute" src="https://via.placeholder.com/390x219" />
-                    <div class="w-[68px] h-12 left-[161px] top-[85.50px] absolute justify-center items-center inline-flex">
-                      <div class="w-[68px] h-12 relative flex-col justify-start items-start flex"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="h-[1040.84px] pl-5 pt-[50px] bg-[#17384e] flex-col justify-start items-center flex">
-        <div class="w-[390px] h-[21px] justify-center items-center inline-flex">
-          <div class="grow shrink basis-0 self-stretch pb-[0.42px] justify-center items-center inline-flex"></div>
-        </div>
-        <div class="h-[990.84px] flex-col justify-end items-start flex">
-          <div class="self-stretch pr-[15px] justify-center items-start inline-flex">
-            <div class="grow shrink basis-0 self-stretch flex-col justify-start items-center inline-flex">
-              <div class="h-[344.28px] px-2.5 flex-col justify-start items-center flex">
-                <div class="w-[335px] grow shrink basis-0 py-2.5 flex-col justify-start items-start flex">
-                  <div class="self-stretch h-[139.94px] pt-10 flex-col justify-center items-start flex">
-                    <div class="self-stretch grow shrink basis-0 px-[67px] pb-10 flex-col justify-center items-center flex">
-                      <img class="w-[201px] h-[59.94px] relative" src="https://via.placeholder.com/201x60" />
-                    </div>
-                  </div>
-                  <div class="self-stretch h-[204.34px] px-[65.33px] flex-col justify-center items-center flex">
-                    <img class="w-[204.34px] h-[204.34px] relative" src="https://via.placeholder.com/204x204" />
-                  </div>
-                </div>
-              </div>
-              <div class="self-stretch h-[38px] pl-[15px] pb-5 flex-col justify-start items-start flex">
-                <div class="self-stretch h-[18px] pl-[119.84px] pr-[119.86px] flex-col justify-start items-center flex">
-                  <div class="self-stretch text-center text-white text-lg font-semibold font-['Poppins'] leading-[18px] tracking-wide">Subscribe</div>
-                </div>
-              </div>
-              <div class="self-stretch h-[128.19px] px-2.5 pb-5 flex-col justify-start items-start flex">
-                <div class="self-stretch h-[108.19px] flex-col justify-center items-start gap-[0px] flex">
-                  <div class="self-stretch h-[61.19px] justify-center items-center inline-flex">
-                    <div class="grow shrink basis-0 px-[19px] pt-4 pb-[17.19px] rounded-[50px] border-2 border-white flex-col justify-start items-start inline-flex">
-                      <div class="self-stretch h-7 opacity-60 flex-col justify-start items-start flex">
-                        <div class="self-stretch text-[#71ccf3] text-2xl font-normal font-['Roboto'] tracking-tight">e.g. email@address.com</div>
+                    <div class="card bg-base-100 shadow-xl">
+                      <figure>
+                        <img
+                          src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                          alt="Shoes" />
+                      </figure>
+                      <div class="card-body">
+                        <h2 class="card-title">Shoes!</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
                       </div>
                     </div>
-                  </div>
-                  <div class="self-stretch h-[47px] px-[137.50px] justify-center items-end inline-flex">
-                    <div class="w-[60px] pl-[24.20px] pr-[24.19px] py-[15px] rounded-[50px] flex-col justify-start items-start inline-flex">
-                      <div class="self-stretch justify-center items-center inline-flex">
-                        <div class="grow shrink basis-0 pb-px flex-col justify-start items-center inline-flex">
-                          <div class="self-stretch text-center text-white text-base font-black font-['Font Awesome 5 Free'] uppercase leading-none tracking-widest"></div>
-                        </div>
+                    <div class="card bg-base-100 shadow-xl">
+                      <figure>
+                        <img
+                          src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                          alt="Shoes" />
+                      </figure>
+                      <div class="card-body">
+                        <h2 class="card-title">Shoes!</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
                       </div>
                     </div>
+                    <div class="card bg-base-100 shadow-xl">
+                      <figure>
+                        <img
+                          src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                          alt="Shoes" />
+                      </figure>
+                      <div class="card-body">
+                        <h2 class="card-title">Shoes!</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                      </div>
+                    </div>
+                    <div class="card bg-base-100 shadow-xl">
+                      <figure>
+                        <img
+                          src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                          alt="Shoes" />
+                      </figure>
+                      <div class="card-body">
+                        <h2 class="card-title">Shoes!</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                      </div>
+                    </div>
+                    
+                   
                   </div>
-                </div>
-              </div>
-              <div class="self-stretch h-[142.18px] pt-[15px] flex-col justify-start items-start flex">
-                <div class="self-stretch h-[127.18px] p-px flex-col justify-start items-center flex">
-                  <div class="h-[125.18px] flex-col justify-center items-start flex">
-                    <div class="self-stretch h-[81.19px] p-2.5 justify-center items-center inline-flex">
-                      <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
-                        <div class="self-stretch h-[61.19px] px-[140px] pb-[8.19px] flex-col justify-start items-center flex">
-                          <div class="self-stretch justify-start items-start inline-flex">
-                            <div class="h-[53px] px-[3.31px] justify-center items-center flex">
-                              <div class="grow shrink basis-0 self-stretch flex-col justify-start items-center inline-flex">
-                                <div class="text-center text-white text-[53px] font-black font-['Font Awesome 5 Free'] leading-[53px]"></div>
-                              </div>
+                 
+                        <div class="self-stretch h-[17px] flex-col justify-start items-start flex">
+                          <div class="self-stretch h-[17px] pl-[158.48px] pr-[158.50px] flex-col justify-start items-center flex">
+                            <div class="py-[2.50px] justify-center items-start inline-flex">
+                              <div class="text-center viewAll text-[#308ba5]/90 text-xs font-semibold font-['Poppins'] leading-3">VIEW ALL</div>
                             </div>
                           </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="self-stretch h-11 p-2.5 justify-center items-center inline-flex">
-                      <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
-                        <div class="self-stretch h-6 pl-[47.55px] pr-[47.54px] flex-col justify-start items-center flex">
-                          <div class="justify-center items-start inline-flex">
-                            <div class="text-center text-white text-base font-semibold font-['Poppins'] leading-normal tracking-wide">(021) 4786 0038 (Hunting)</div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="h-[153.19px] p-px flex-col justify-start items-center flex">
-                <div class="h-[151.19px] flex-col justify-center items-start gap-[0px] flex">
-                  <div class="self-stretch h-[83.19px] p-2.5 justify-center items-center inline-flex">
-                    <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
-                      <div class="self-stretch h-[63.19px] px-[139px] pb-[8.19px] flex-col justify-start items-center flex">
-                        <div class="self-stretch justify-start items-start inline-flex">
-                          <div class="h-[55px] justify-center items-center flex">
-                            <div class="grow shrink basis-0 self-stretch flex-col justify-start items-center inline-flex">
-                              <div class="text-center text-white text-[55px] font-black font-['Font Awesome 5 Free'] leading-[55px]"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="self-stretch h-[68px] p-2.5 justify-center items-center inline-flex">
-                    <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
-                      <div class="self-stretch h-12 px-[37.28px] flex-col justify-start items-center flex">
-                        <div class="justify-center items-start inline-flex">
-                          <div class="text-center text-white text-base font-semibold font-['Poppins'] leading-normal tracking-wide">info@labschool-unj.sch.id<br/>Rawamangun Jakarta Timur</div>
                         </div>
                       </div>
                     </div>
@@ -728,45 +575,173 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="self-stretch justify-center items-start inline-flex">
-            <div class="grow shrink basis-0 self-stretch justify-center items-end flex">
-              <div class="grow shrink basis-0 pb-[50px] flex-col justify-start items-start inline-flex">
-                <div class="self-stretch h-[43px] pl-[168.48px] pr-[168.50px] pb-2.5 flex-col justify-start items-center flex">
-                  <div class="w-[33.02px] p-[5.50px] bg-black/5 rounded-[3px] justify-center items-center inline-flex">
-                    <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
-                      <div class="self-stretch justify-start items-start inline-flex">
-                        <div class="w-[22.02px] h-[22px] px-[0.93px] pt-[3.67px] pb-[4.58px] justify-center items-center flex"></div>
+            <div class="h-[540px] bg-[#e9e9e9] flex-col justify-center items-start gap-[0px] flex">
+              <div class="self-stretch h-[212.31px] pl-[23.39px] pt-[54.15px] pb-[74.16px] flex-col justify-center items-start flex">
+                <div class="h-[175px] flex-col justify-center items-start flex">
+                  <div class="h-[175px] relative bg-[#e86b18]"></div>
+                </div>
+                <div class="h-[175px] flex-col justify-center items-start flex">
+                  <div class="h-[175px] relative bg-[#ebe718]/90"></div>
+                </div>
+                <div class="self-stretch h-[84px] flex-col justify-center items-start flex">
+                  <div class="self-stretch grow shrink basis-0 flex-col justify-start items-start flex">
+                    <div class="self-stretch h-[84px] flex-col justify-start items-start flex">
+                      <div class="self-stretch text-[#141313] text-[32px] font-bold font-['Poppins'] leading-[42px]">LABITECH TV<br/>ON YOUTUBE</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="self-stretch h-[327.69px] flex-col justify-start items-start flex">
+                <div class="self-stretch h-[219.38px] flex-col justify-center items-start flex">
+                  <div class="self-stretch grow shrink basis-0 flex-col justify-start items-start flex">
+                    <div class="self-stretch h-[219.38px] flex-col justify-center items-start flex">
+                      <div class="h-[219.38px] relative bg-black"></div>
+                    </div>
+                    <div class="w-[390px] h-[219px] bg-black flex-col justify-center items-start flex">
+                      <div class="h-[219px] relative bg-black">
+                        <div class="w-[182.05px] h-[47px] left-[195.95px] top-[167px] absolute bg-black/30 rounded-3xl flex-col justify-start items-start inline-flex">
+                          <div class="self-stretch h-px px-3 pt-12 justify-start items-center gap-1.5 inline-flex">
+                            <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
+                              <div class="self-stretch text-white text-base font-medium font-['Roboto'] leading-none">Watch on</div>
+                            </div>
+                            <div class="w-[85px] h-5 flex-col justify-center items-start inline-flex">
+                              <div class="h-5 relative"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <img class="w-[390px] h-[99px] left-0 top-0 absolute" src="https://via.placeholder.com/390x99" />
+                        <div class="w-[366px] left-[12px] top-0 absolute justify-end items-start inline-flex">
+                          <div class="w-[50px] h-[50px] p-[5px] rounded-[25px] justify-start items-start flex">
+                            <img class="w-10 h-10 rounded-[20px]" src="https://via.placeholder.com/40x40" />
+                          </div>
+                          <div class="grow shrink basis-0 self-stretch justify-center items-start flex">
+                            <div class="grow shrink basis-0 self-stretch pl-[50px] pt-[21px] flex-col justify-start items-start inline-flex">
+                              <div class="self-stretch h-6 flex-col justify-start items-start flex">
+                                <div class="self-stretch text-[#eeeeee] text-lg font-normal font-['Roboto'] leading-normal">Inspirasi Kepemimpinan dari Ke…</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="self-stretch flex-col justify-start items-start inline-flex">
+                            <div class="px-1.5 pt-4 opacity-90 justify-center items-center inline-flex">
+                              <div class="w-9 h-9 flex-col justify-center items-start inline-flex">
+                                <div class="h-9 pt-[9px] pb-[11px] justify-center items-center inline-flex"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="w-[390px] h-[219px] left-0 top-0 absolute">
+                          <img class="w-[390px] h-[219px] left-0 top-0 absolute" src="https://via.placeholder.com/390x219" />
+                          <div class="w-[68px] h-12 left-[161px] top-[85.50px] absolute justify-center items-center inline-flex">
+                            <div class="w-[68px] h-12 relative flex-col justify-start items-start flex"></div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="self-stretch pb-5 justify-center items-start inline-flex">
-            <div class="grow shrink basis-0 self-stretch justify-center items-end flex">
-              <div class="grow shrink basis-0 flex-col justify-start items-center inline-flex">
-                <div class="w-[370px] justify-center items-start inline-flex">
-                  <div class="grow shrink basis-0 self-stretch"></div>
-                </div>
+            <div class="h-[1040.84px] pl-5 pt-[50px] bg-[#17384e] flex-col justify-start items-center flex">
+              <div class="w-[390px] h-[21px] justify-center items-center inline-flex">
+                <div class="grow shrink basis-0 self-stretch pb-[0.42px] justify-center items-center inline-flex"></div>
               </div>
-            </div>
-          </div>
-          <div class="self-stretch justify-center items-start inline-flex">
-            <div class="grow shrink basis-0 self-stretch flex-col justify-end items-end inline-flex">
-              <div class="h-[50px] relative"></div>
-              <div class="h-[21px] flex-col justify-start items-start flex">
-                <div class="self-stretch h-[21px] flex-col justify-start items-end flex">
-                  <div class="self-stretch text-right text-white/40 text-sm font-medium font-['Poppins'] leading-[21px] tracking-tight">Copyright @ Labschool UNJ . All rights reserved.</div>
+              <div class="h-[990.84px] flex-col justify-end items-start flex">
+                <div class="self-stretch pr-[15px] justify-center items-start inline-flex">
+                  <div class="grow shrink basis-0 self-stretch flex-col justify-start items-center inline-flex">
+                    <div class="h-[344.28px] px-2.5 flex-col justify-start items-center flex">
+                      <div class="w-[335px] grow shrink basis-0 py-2.5 flex-col justify-start items-start flex">
+                        <div class="self-stretch h-[139.94px] pt-10 flex-col justify-center items-start flex">
+                          <div class="self-stretch grow shrink basis-0 px-[67px] pb-10 flex-col justify-center items-center flex">
+                            <img class="w-[201px] h-[59.94px] relative" src="https://via.placeholder.com/201x60" />
+                          </div>
+                        </div>
+                        <div class="self-stretch h-[204.34px] px-[65.33px] flex-col justify-center items-center flex">
+                          <img class="w-[204.34px] h-[204.34px] relative" src="https://via.placeholder.com/204x204" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="self-stretch h-[38px] pl-[15px] pb-5 flex-col justify-start items-start flex">
+                      <div class="self-stretch h-[18px] pl-[119.84px] pr-[119.86px] flex-col justify-start items-center flex">
+                        <div class="self-stretch text-center text-white text-lg font-semibold font-['Poppins'] leading-[18px] tracking-wide">Subscribe</div>
+                      </div>
+                    </div>
+                    <div class="self-stretch h-[128.19px] px-2.5 pb-5 flex-col justify-start items-start flex">
+                      <div class="self-stretch h-[108.19px] flex-col justify-center items-start gap-[0px] flex">
+                        <div class="self-stretch h-[61.19px] justify-center items-center inline-flex">
+                          <div class="grow shrink basis-0 px-[19px] pt-4 pb-[17.19px] rounded-[50px] border-2 border-white flex-col justify-start items-start inline-flex">
+                            <div class="self-stretch h-7 opacity-60 flex-col justify-start items-start flex">
+                              <div class="self-stretch text-[#71ccf3] text-2xl font-normal font-['Roboto'] tracking-tight">e.g. email@address.com</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="self-stretch h-[47px] px-[137.50px] justify-center items-end inline-flex">
+                          <div class="w-[60px] pl-[24.20px] pr-[24.19px] py-[15px] rounded-[50px] flex-col justify-start items-start inline-flex">
+                            <div class="self-stretch justify-center items-center inline-flex">
+                              <div class="grow shrink basis-0 pb-px flex-col justify-start items-center inline-flex">
+                                <div class="self-stretch text-center text-white text-base font-black font-['Font Awesome 5 Free'] uppercase leading-none tracking-widest"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="self-stretch h-[142.18px] pt-[15px] flex-col justify-start items-start flex">
+                      <div class="self-stretch h-[127.18px] p-px flex-col justify-start items-center flex">
+                        <div class="h-[125.18px] flex-col justify-center items-start flex">
+                          <div class="self-stretch h-[81.19px] p-2.5 justify-center items-center inline-flex">
+                            <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
+                              <div class="self-stretch h-[61.19px] px-[140px] pb-[8.19px] flex-col justify-start items-center flex">
+                                <div class="self-stretch justify-start items-start inline-flex">
+                                  <div class="h-[53px] px-[3.31px] justify-center items-center flex">
+                                    <div class="grow shrink basis-0 self-stretch flex-col justify-start items-center inline-flex">
+                                      <div class="text-center text-white text-[53px] font-black font-['Font Awesome 5 Free'] leading-[53px]"></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="self-stretch h-11 p-2.5 justify-center items-center inline-flex">
+                            <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
+                              <div class="self-stretch h-6 pl-[47.55px] pr-[47.54px] flex-col justify-start items-center flex">
+                                <div class="justify-center items-start inline-flex">
+                                  <div class="text-center text-white text-base font-semibold font-['Poppins'] leading-normal tracking-wide">(021) 4786 0038 (Hunting)</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="h-[153.19px] p-px flex-col justify-start items-center flex">
+                      <div class="h-[151.19px] flex-col justify-center items-start gap-[0px] flex">
+                        <div class="self-stretch h-[83.19px] p-2.5 justify-center items-center inline-flex">
+                          <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
+                            <div class="self-stretch h-[63.19px] px-[139px] pb-[8.19px] flex-col justify-start items-center flex">
+                              <div class="self-stretch justify-start items-start inline-flex">
+                                <div class="h-[55px] justify-center items-center flex">
+                                  <div class="grow shrink basis-0 self-stretch flex-col justify-start items-center inline-flex">
+                                    <div class="text-center text-white text-[55px] font-black font-['Font Awesome 5 Free'] leading-[55px]"></div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="self-stretch h-[68px] p-2.5 justify-center items-center inline-flex">
+                          <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
+                            <div class="self-stretch h-12 px-[37.28px] flex-col justify-start items-center flex">
+                              <div class="justify-center items-start inline-flex">
+                                <div class="text-center text-white text-base font-semibold font-['Poppins'] leading-normal tracking-wide">info@labschool-unj.sch.id<br/>Rawamangun Jakarta Timur</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
 </body>
 </html>
+

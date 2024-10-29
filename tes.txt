@@ -1,0 +1,375 @@
+<div class="w-[390px] h-[6290.42px] bg-white flex-col justify-start items-start inline-flex">
+  <div class="self-stretch h-[6290.42px] flex-col justify-start items-start flex">
+    <div class="h-[79.39px] bg-white/0 shadow flex-col justify-start items-center flex">
+      <div class="w-[390px] h-[79.39px] relative">
+        <div class="w-[117px] h-[79.39px] p-2.5 left-0 top-0 absolute justify-center items-start inline-flex">
+          <div class="grow shrink basis-0 self-stretch pt-1.5 flex-col justify-start items-start inline-flex">
+            <div class="h-[53.39px] pr-[43.66px] justify-start items-center inline-flex">
+              <img class="w-[53.34px] h-[53.39px] relative" src="https://via.placeholder.com/53x53" />
+            </div>
+          </div>
+        </div>
+        <div class="w-[186px] h-[79.39px] pr-2.5 pt-2.5 pb-[10.78px] left-[87px] top-0 absolute justify-center items-start inline-flex">
+          <div class="grow shrink basis-0 self-stretch flex-col justify-start items-start inline-flex">
+            <div class="self-stretch h-[58.61px] flex-col justify-center items-start flex">
+              <img class="h-[58.61px] relative" src="https://via.placeholder.com/176x59" />
+            </div>
+          </div>
+        </div>
+        <div class="w-[82.19px] h-[79.39px] left-[273px] top-0 absolute justify-center items-start inline-flex">
+          <div class="grow shrink basis-0 self-stretch p-2.5 justify-start items-start flex">
+            <div class="w-[72.19px] self-stretch flex-col justify-start items-start inline-flex">
+              <div class="self-stretch h-[51px] pl-[16.58px] pr-[16.59px] pb-3 flex-col justify-start items-center flex">
+                <div class="w-[39.02px] p-[6.50px] bg-[#dde2e6]/95 rounded-[10px] justify-center items-center inline-flex">
+                  <div class="flex-col justify-start items-start inline-flex">
+                    <div class="justify-start items-start inline-flex">
+                      <div class="w-[26.01px] h-[26px] px-[1.10px] pt-[4.34px] pb-[5.41px] justify-center items-center flex"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="h-[1276px] p-2.5 flex-col justify-start items-center flex">
+      <div class="h-[1256px] flex-col justify-center items-start flex">
+        <div class="self-stretch justify-center items-start inline-flex">
+          <div class="grow shrink basis-0 self-stretch pt-[30px] flex-col justify-end items-start inline-flex">
+            <div class="self-stretch h-[410px] pt-[280px] pb-5 flex-col justify-start items-start flex">
+              <div class="self-stretch h-[110px] bg-gradient-to-l from-[#0081c1] to-[#1a33a9] rounded-tl-[50px] rounded-br-[50px] shadow flex-col justify-start items-center flex">
+                <div class="w-[370px] justify-start items-start inline-flex">
+                  <div class="w-[111px] self-stretch justify-center items-start flex">
+                    <div class="grow shrink basis-0 self-stretch px-3 py-[17.50px] justify-center items-center flex">
+                      <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
+                        <div class="self-stretch h-[75px] px-1.5 flex-col justify-start items-center flex">
+                          <div class="self-stretch justify-center items-center inline-flex">
+                            <img class="h-[75px] relative rounded-[50px] shadow border-4 border-white" src="https://via.placeholder.com/75x75" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="w-[259px] self-stretch justify-center items-start flex">
+                    <div class="grow shrink basis-0 self-stretch pt-[42.20px] pb-[42.80px] justify-center items-center flex">
+                      <div class="grow shrink basis-0 pl-[9px] flex-col justify-start items-start inline-flex">
+                        <div class="self-stretch h-[25.40px] flex-col justify-start items-start flex">
+                          <div class="py-[1.70px] justify-start items-start inline-flex">
+                            <div class="text-white text-lg font-semibold font-['Poppins'] uppercase leading-snug tracking-tight">labschool jakarta</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="self-stretch h-[131px] pb-5 flex-col justify-start items-start flex">
+              <div class="self-stretch h-[111px] bg-gradient-to-l from-[#0081c1] to-[#1a33a9] rounded-tl-[50px] rounded-br-[50px] shadow flex-col justify-start items-center flex">
+                <div class="w-[370px] justify-start items-start inline-flex">
+                  <div class="w-[111px] self-stretch justify-center items-start flex">
+                    <div class="grow shrink basis-0 self-stretch p-3 justify-center items-center flex">
+                      <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
+                        <div class="self-stretch h-[87px] flex-col justify-center items-center flex">
+                          <img class="w-[87px] h-[87px] relative rounded-[50px] shadow border-4 border-white" src="https://via.placeholder.com/87x87" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="w-[259px] self-stretch pl-[5px] justify-center items-start flex">
+                    <div class="grow shrink basis-0 self-stretch px-2.5 pt-[44.70px] pb-[44.71px] justify-start items-center flex">
+                      <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
+                        <div class="self-stretch h-[22px] flex-col justify-start items-start flex">
+                          <div class="self-stretch text-white text-lg font-semibold font-['Poppins'] uppercase leading-snug tracking-tight">labschool kebayoran</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="self-stretch h-[131px] pb-5 flex-col justify-start items-start flex">
+              <div class="self-stretch h-[111px] bg-gradient-to-l from-[#0081c1] to-[#1a33a9] rounded-tl-[50px] rounded-br-[50px] shadow flex-col justify-start items-center flex">
+                <div class="w-[370px] justify-start items-start inline-flex">
+                  <div class="w-[111px] self-stretch justify-center items-start flex">
+                    <div class="grow shrink basis-0 self-stretch p-3 justify-center items-center flex">
+                      <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
+                        <div class="self-stretch h-[87px] flex-col justify-start items-start flex">
+                          <div class="self-stretch justify-center items-center inline-flex">
+                            <img class="h-[87px] relative rounded-[50px] shadow border-4 border-white" src="https://via.placeholder.com/87x87" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="w-[259px] self-stretch pl-[5px] justify-center items-start flex">
+                    <div class="grow shrink basis-0 self-stretch px-2.5 pt-[42.70px] pb-[43.30px] justify-start items-center flex">
+                      <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
+                        <div class="self-stretch h-[25.40px] flex-col justify-start items-start flex">
+                          <div class="py-[1.70px] justify-start items-start inline-flex">
+                            <div class="text-white text-lg font-semibold font-['Poppins'] uppercase leading-snug tracking-tight">labschool Cibubur</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="self-stretch h-[131px] pb-5 flex-col justify-start items-start flex">
+              <div class="self-stretch h-[111px] bg-gradient-to-l from-[#0081c1] to-[#1a33a9] rounded-tl-[50px] rounded-br-[50px] shadow flex-col justify-start items-center flex">
+                <div class="w-[370px] justify-start items-start inline-flex">
+                  <div class="w-[111px] self-stretch justify-center items-start flex">
+                    <div class="grow shrink basis-0 self-stretch p-3 justify-center items-center flex">
+                      <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
+                        <div class="self-stretch h-[87px] flex-col justify-center items-center flex">
+                          <img class="w-[87px] h-[87px] relative rounded-[50px] shadow border-4 border-white" src="https://via.placeholder.com/87x87" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="w-[259px] self-stretch pl-[5px] justify-center items-start flex">
+                    <div class="grow shrink basis-0 self-stretch px-2.5 pt-[44.70px] pb-[44.71px] justify-start items-center flex">
+                      <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
+                        <div class="self-stretch h-[22px] flex-col justify-start items-start flex">
+                          <div class="self-stretch text-white text-lg font-semibold font-['Poppins'] uppercase leading-snug tracking-tight">labschool Cirendeu</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="self-stretch h-[131px] pb-5 flex-col justify-start items-start flex">
+              <div class="self-stretch h-[111px] bg-gradient-to-l from-[#0081c1] to-[#1a33a9] rounded-tl-[50px] rounded-br-[50px] shadow flex-col justify-start items-center flex">
+                <div class="w-[370px] justify-start items-start inline-flex">
+                  <div class="w-[111px] self-stretch justify-center items-start flex">
+                    <div class="grow shrink basis-0 self-stretch p-3 justify-center items-center flex">
+                      <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
+                        <div class="self-stretch h-[87px] flex-col justify-start items-center flex">
+                          <div class="self-stretch justify-center items-center inline-flex">
+                            <img class="h-[87px] relative rounded-[50px] shadow border-4 border-white" src="https://via.placeholder.com/87x87" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="w-[259px] self-stretch pl-[5px] justify-center items-start flex">
+                    <div class="grow shrink basis-0 self-stretch px-2.5 pt-[42.70px] pb-[43.30px] justify-start items-center flex">
+                      <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
+                        <div class="self-stretch h-[25.40px] flex-col justify-start items-start flex">
+                          <div class="py-[1.70px] justify-start items-start inline-flex">
+                            <div class="text-white text-lg font-semibold font-['Poppins'] uppercase leading-snug tracking-tight">labschool bintaro</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="self-stretch h-[131px] pb-5 flex-col justify-start items-start flex">
+              <div class="self-stretch h-[111px] bg-gradient-to-l from-[#0081c1] to-[#1a33a9] rounded-tl-[50px] rounded-br-[50px] shadow flex-col justify-start items-center flex">
+                <div class="w-[370px] justify-start items-start inline-flex">
+                  <div class="w-[111px] self-stretch justify-center items-start flex">
+                    <div class="grow shrink basis-0 self-stretch p-3 justify-center items-center flex">
+                      <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
+                        <div class="self-stretch h-[87px] flex-col justify-start items-center flex">
+                          <div class="self-stretch justify-center items-center inline-flex">
+                            <img class="h-[87px] relative rounded-[50px] shadow border-4 border-white" src="https://via.placeholder.com/87x87" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="w-[259px] self-stretch pl-[5px] justify-center items-start flex">
+                    <div class="grow shrink basis-0 self-stretch px-2.5 pt-[42.70px] pb-[43.30px] justify-start items-center flex">
+                      <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
+                        <div class="self-stretch h-[25.40px] flex-col justify-start items-start flex">
+                          <div class="py-[1.70px] justify-start items-start inline-flex">
+                            <div class="text-white text-lg font-semibold font-['Poppins'] uppercase leading-snug tracking-tight">labschool ciracas</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="self-stretch h-[146px] pb-5 flex-col justify-start items-start flex">
+              <div class="self-stretch h-[126px] bg-gradient-to-l from-[#0081c1] to-[#1a33a9] rounded-[10px] shadow flex-col justify-start items-center flex">
+                <div class="w-[370px] pl-[5px] justify-center items-start inline-flex">
+                  <div class="grow shrink basis-0 self-stretch px-2.5 py-[27px] justify-start items-center flex">
+                    <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
+                      <div class="self-stretch px-6 py-3 bg-gradient-to-b from-white to-[#c1a8ae] rounded-[10px] justify-center items-start inline-flex">
+                        <div class="grow shrink basis-0 h-12 justify-center items-start flex">
+                          <div class="grow shrink basis-0 self-stretch px-[0.47px] flex-col justify-start items-center inline-flex">
+                            <div class="self-stretch text-center text-[#4b5998] text-base font-bold font-['Roboto'] leading-none">PENERIMAAN SISWA BARU LABSCHOOL<br/>2024</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="self-stretch pb-[30px] justify-center items-start inline-flex">
+          <div class="grow shrink basis-0 self-stretch flex-col justify-end items-start inline-flex">
+            <div class="self-stretch h-1 flex-col justify-start items-center flex">
+              <div class="h-1 flex-col justify-center items-start flex">
+                <div class="self-stretch h-px"></div>
+                <div class="self-stretch h-px"></div>
+                <div class="self-stretch h-px"></div>
+                <div class="self-stretch h-px"></div>
+              </div>
+            </div>
+            <div class="self-stretch h-[21px] pb-5 flex-col justify-start items-start flex">
+              <div class="self-stretch h-px flex-col justify-start items-center flex">
+                <div class="w-[370px] justify-center items-start inline-flex">
+                  <div class="grow shrink basis-0 self-stretch"></div>
+                </div>
+              </div>
+            </div>
+            <div class="h-[88.19px] pb-[55px] flex-col justify-start items-start flex">
+              <div class="self-stretch h-[33.19px] pb-[8.19px] flex-col justify-start items-end flex">
+                <div class="justify-start items-start inline-flex">
+                  <div class="h-[25px] justify-center items-center flex">
+                    <div class="grow shrink basis-0 self-stretch pr-[0.01px] flex-col justify-start items-center inline-flex">
+                      <div class="text-center text-white/70 text-[25px] font-normal font-['Font Awesome 5 Brands'] leading-[25px]"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="h-[123.19px] px-5 pt-5 pb-[70px] flex-col justify-start items-start flex">
+              <div class="self-stretch h-[33.19px] pb-[8.19px] flex-col justify-start items-end flex">
+                <div class="justify-start items-start inline-flex">
+                  <div class="h-[25px] justify-center items-center flex">
+                    <div class="grow shrink basis-0 self-stretch flex-col justify-start items-center inline-flex">
+                      <div class="text-center text-white/70 text-[25px] font-normal font-['Font Awesome 5 Brands'] leading-[25px]"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="h-[83.19px] pb-[50px] flex-col justify-start items-start flex">
+              <div class="self-stretch h-[33.19px] pb-[8.19px] flex-col justify-start items-end flex">
+                <div class="justify-start items-start inline-flex">
+                  <div class="h-[25px] px-[1.56px] justify-center items-center flex">
+                    <div class="grow shrink basis-0 self-stretch flex-col justify-start items-center inline-flex">
+                      <div class="text-center text-white/70 text-[25px] font-normal font-['Font Awesome 5 Brands'] leading-[25px]"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-[390px] h-[45px] justify-center items-center inline-flex">
+        <div class="grow shrink basis-0 self-stretch justify-center items-center inline-flex"></div>
+      </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="self-stretch justify-center items-start inline-flex">
+          <div class="grow shrink basis-0 self-stretch justify-center items-end flex">
+            <div class="grow shrink basis-0 pb-[50px] flex-col justify-start items-start inline-flex">
+              <div class="self-stretch h-[43px] pl-[168.48px] pr-[168.50px] pb-2.5 flex-col justify-start items-center flex">
+                <div class="w-[33.02px] p-[5.50px] bg-black/5 rounded-[3px] justify-center items-center inline-flex">
+                  <div class="grow shrink basis-0 flex-col justify-start items-start inline-flex">
+                    <div class="self-stretch justify-start items-start inline-flex">
+                      <div class="w-[22.02px] h-[22px] px-[0.93px] pt-[3.67px] pb-[4.58px] justify-center items-center flex"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="self-stretch pb-5 justify-center items-start inline-flex">
+          <div class="grow shrink basis-0 self-stretch justify-center items-end flex">
+            <div class="grow shrink basis-0 flex-col justify-start items-center inline-flex">
+              <div class="w-[370px] justify-center items-start inline-flex">
+                <div class="grow shrink basis-0 self-stretch"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="self-stretch justify-center items-start inline-flex">
+          <div class="grow shrink basis-0 self-stretch flex-col justify-end items-end inline-flex">
+            <div class="h-[50px] relative"></div>
+            <div class="h-[21px] flex-col justify-start items-start flex">
+              <div class="self-stretch h-[21px] flex-col justify-start items-end flex">
+                <div class="self-stretch text-right text-white/40 text-sm font-medium font-['Poppins'] leading-[21px] tracking-tight">Copyright @ Labschool UNJ . All rights reserved.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
